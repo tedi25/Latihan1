@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #26468f;
+  --secondary-color: #ebebeb;
+}
+
+* {
+  position: relative;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.bg-blue {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.bg-grey {
+  background-color: var(--secondary-color);
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+#button-absolute {
+  position: absolute;
+  top: 70%;
+  left: 85%;
+  box-shadow: 7px 7px 2px 0px rgb(202, 202, 202);
+}
+
+#background-purple {
+  background-color: #f4f7fd;
+}
+
+#button-shadow {
+  box-shadow: 8px 8px 2px 0px rgb(202, 202, 202);
+}
